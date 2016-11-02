@@ -6,24 +6,28 @@
 <head>
   <title>SinglePageTemplate</title>
 	<meta charset="utf-8">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <!--bootstrap!-->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="js/1.12.4jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <!--vanilla.js!-->
-  <script src="smooth-scroll.js"></script>
+  <script src="js/smooth-scroll.js"></script>
   <!--skills bar; jquery!-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="jquery.circlechart.js"></script>
+  <script src="js/2.1.3jquery.min.js"></script>
+  <script src="js/jquery.circlechart.js"></script>
   <!--slider!-->
-  <script src="jssor.slider-21.1.5.mini.js"></script>
+  <script src="js/jssor.slider-21.1.5.mini.js"></script>
 
 
 
 <!--===============================custom css!=======================================-->
 <style>
+  @font-face {
+    font-family: open sans;
+    src: url(font/openSans-Regular.ttf);
+}
+
   body{
     margin: 0 0 0 0;
     width: 100%;
@@ -31,7 +35,7 @@
 
   /*---------hero sector-------*/
   .hero-unit{
-    background-image: url('hero.jpg');
+    background-image: url('img/hero.jpg');
     background-size: cover;
     background-position: center;
     width: 100%;
