@@ -18,16 +18,19 @@
           </a-entity>
       </a-entity>
 
-      <!--back!-->
-      <a-entity id="back" position="0.3 0.5 -1.7" rotation="0 -25 0">
-        <a-plane id="backPlane" height="0.5" width="1" color="#000" position="0 -2.0 -2" ></a-plane>
-        <a-entity bmfont-text="text:back; color:#fff" scale="1 1 1" position="-0.20 -2.05 -2"></a-entity>
+      <a-entity rotation="0 -28 0" position="-0.5 0 0">
+        <!--back!-->
+        <a-entity id="back" position="-0.5 0.5 -1.7" rotation="0 0 0">
+          <a-plane id="backPlane" height="0.5" width="1" color="#000" position="0 -2.0 -2" ></a-plane>
+          <a-entity bmfont-text="text:back; color:#fff" scale="1 1 1" position="-0.20 -2.05 -2"></a-entity>
+        </a-entity>
+        <!--nextPage!-->
+        <a-entity id="next" position="1.4 0.5 -1.7" rotation="0 -15 0">
+          <a-plane id="nextPlane" height="0.5" width="1" color="#000" position="0 -2.0 -1.7" ></a-plane>
+          <a-entity bmfont-text="text:next; color:#fff" scale="1 1 1" position="-0.20 -2.05 -1.7"></a-entity>
+        </a-entity>
       </a-entity>
-      <!--nextPage!-->
-      <a-entity id="next" position="1.5 0.5 -1" rotation="0 -25 0">
-        <a-plane id="nextPlane" height="0.5" width="1" color="#000" position="0 -2.0 -2" ></a-plane>
-        <a-entity bmfont-text="text:next; color:#fff" scale="1 1 1" position="-0.20 -2.05 -2"></a-entity>
-      </a-entity>
+
 
       <!--view!-->
       <a-entity>
@@ -54,8 +57,8 @@
         <!--earth text!-->
 
         <a-entity id="earthText" visible="true">
-          <a-entity position="1 1.5 -5" rotation="0 -25 0" bmfont-text="text: Earth; color:#fff;" scale="3 3 3"></a-entity>
-          <a-entity position="1 -1.0 -5" rotation="0 -25 0"
+          <a-entity position="0 1.5 -5.5" rotation="0 -25 0" bmfont-text="text: Earth; color:#fff;" scale="3 3 3"></a-entity>
+          <a-entity position="0 -1.0 -5.5" rotation="0 -25 0"
           bmfont-text="text: Earth (otherwise known as the world, in Greek: Γαῖα Gaia, or in Latin: Terra) is the third planet from the Sun, the densest planet in the Solar System.
 
                       Radius: 3,959 mi
@@ -69,8 +72,8 @@
 
         <!--moon text!-->
         <a-entity id="moonText" visible="false">
-          <a-entity position="1 1.5 -5" rotation="0 -25 0" bmfont-text="text: Moon; color:#fff;" scale="3 3 3"></a-entity>
-          <a-entity position="1 -1.0 -5" rotation="0 -25 0"
+          <a-entity position="0 1.5 -5.5" rotation="0 -25 0" bmfont-text="text: Moon; color:#fff;" scale="3 3 3"></a-entity>
+          <a-entity position="0 -1.0 -5.5" rotation="0 -25 0"
           bmfont-text="text: The Moon is Earth's only permanent natural satellite. It is the fifth-largest natural satellite in the Solar System.
 
                       Radius: 1,079 mi
